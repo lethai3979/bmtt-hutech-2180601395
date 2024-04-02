@@ -54,8 +54,8 @@ while (True):
             print("\nSanh sach sinh vien trong!")
     elif (key == 6):
         if (qlsv.soLuongSinhVien () > 0):
-            print("\n6. Sap xep sinh vien theo ten.")
-            qlsv.sortByName()
+            print("\n6. Sap xep sinh vien theo ten chuyen nganh.")
+            qlsv.sortByMajor()
             qlsv.showSinhVien(qlsv.getListSinhVien())
         else:
             print("\nSanh sach sinh vien trong!")

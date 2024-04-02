@@ -43,8 +43,8 @@ class QuanLySinhVien:
     def sortByID (self):
         self.listSinhVien.sort(key=lambda x: x._id, reverse=False)
         
-    def sortByName(self):
-        self.listSinhVien.sort(key=lambda x: x._name, reverse=False)
+    def sortByMajor(self):
+        self.listSinhVien.sort(key=lambda x: x._major, reverse=False)
         
     def sortByDiemTB (self):
         self.listSinhVien.sort(key=lambda x: x._diemTB, reverse=False)
